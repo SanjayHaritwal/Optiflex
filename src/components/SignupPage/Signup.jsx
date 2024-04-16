@@ -68,13 +68,13 @@ export default function Signup(){
             <img src="/images/chimpLogo.svg" alt="" />
             <div className={styles.signupComponent}>
                 <h3 className={styles.h3}>Welcome to OptiFlex</h3>
-                <p> <span>Log in</span></p>
+                <p></p>
                 <div className={styles.formS}>
                     <div>
                         <p>Email</p>
                         <input type="email" name="email" value={detail.email} onChange={handleEmail} />
                         <br />
-                        {email?<span>Please enter VIT email</span>:<></>}
+                        {email?<span>Please enter a valid email</span>:<></>}
                     </div>
                     <div>
                         <p>Username</p>
