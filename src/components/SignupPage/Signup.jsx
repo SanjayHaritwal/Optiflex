@@ -88,7 +88,7 @@ export default function Signup(){
                     <CheckBox type="checkbox" />
                     <p></p>
                 </div>
-                <p></span> <span></span>.</p>
+                <p> <span></span>.</p>
                 <p></p>
             </div>
             <img className={styles.image} src="/images/signup.png" alt="" />
