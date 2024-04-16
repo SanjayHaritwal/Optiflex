@@ -58,7 +58,7 @@ export default function PasswordTab({password, setPassword, setButton, detail,se
                 <p>Password</p>
                 <input type="password" name="password" value={detail.password} onChange={handlePasswordChange}/>
                 <br />
-                {password?<span>Please follow the below conventions for writing your password</span>:<></>}
+                {password?<span></span>:<></>}
             </div>
             <ul className={styles.ulList}>
                 <li className={low?styles.valid:styles.invalid}></li>
