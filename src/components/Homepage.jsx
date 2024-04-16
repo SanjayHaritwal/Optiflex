@@ -69,7 +69,7 @@ export default function Homepage() {
               </div>
             </div>
             <div style={{ display: "flex" }}>
-              <p>&nbsp; This page is now available in other languages.&nbsp;</p>
+              <p>&nbsp; .&nbsp;</p>
               <p
                 style={{
                   fontSize: "16px",
@@ -77,7 +77,7 @@ export default function Homepage() {
                 }}
               >
                 {" "}
-                Choose a different language.
+                .
               </p>
             </div>
           </div>
@@ -147,8 +147,7 @@ export default function Homepage() {
             Get down to business and grow sales
           </div>
           <div className={styles.lefttwo}>
-            Engage your customers and boost your business with Mainchimp’s
-            advanced, yet easy-to-use marketing platform.
+            .
           </div>
           <div className={styles.leftthree}>
             <button className={styles.btnleft}>
@@ -171,11 +170,7 @@ export default function Homepage() {
                 marginTop: "1.5rem",
               }}
             >
-              Our website stores cookies on your device and discloses
-              information in accordance with our Cookie Statement. Choose
-              “Customize Settings” to c to control ocookies. We may collect
-              certain aggregate and anonymized data from your browser
-              independent of your cookie preferences. Cookie Statement
+            Cookie Statement.
             </div>
             <div className={styles.customiseBtn}>
               <button
@@ -201,15 +196,14 @@ export default function Homepage() {
       ) : (
         <div className={styles.bluediv}>
           <div style={{ marginTop: "2rem", margin: "0 auto" }}>
-            Mailchimp is being acquired by Intuit! Our Co-founder and CEO shared
-            the news with our customers.{" "}
+            .{" "}
             <span style={{ color: "blue", textDecoration: "underline" }}>
-              Read here.
+              .
             </span>
           </div>
         </div>
       )}
-      <div className={styles.Doit}>Do it all with Mailchimp</div>
+      <div className={styles.Doit}>Do it all with OptiFlex</div>
       <div className={styles.audience}>
         Bring your audience data, marketing channels, and insights together so
         you can reach your goals faster—all from a single platform.
