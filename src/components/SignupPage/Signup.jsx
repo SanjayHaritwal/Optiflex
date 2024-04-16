@@ -67,26 +67,26 @@ export default function Signup(){
         <div className={styles.signup}>
             <img src="/images/chimpLogo.svg" alt="" />
             <div className={styles.signupComponent}>
-                <h3 className={styles.h3}>Welcome to Mailchimp</h3>
-                <p>Find your people. Engage your customers. Build your brand. Do it all with Mailchimp’s Marketing Platform. Already have an account? <span>Log in</span></p>
+                <h3 className={styles.h3}>Welcome to OptiFlex</h3>
+                <p> <span>Log in</span></p>
                 <div className={styles.formS}>
                     <div>
                         <p>Email</p>
                         <input type="email" name="email" value={detail.email} onChange={handleEmail} />
                         <br />
-                        {email?<span>Please enter a valid email</span>:<></>}
+                        {email?<span>Please enter VIT email</span>:<></>}
                     </div>
                     <div>
                         <p>Username</p>
                         <input type="text" name="username" value={detail.username} onChange={handleUser} onClick={()=>setUsername(true)} onBlur={()=>setUsername(false)}/>
                         <br />
-                        {username ? <h5 className={styles.h5}>Choose a username that contains only letters and numbers, or use your email address. This is for login only.</h5>:
-                        user?<span>Another user with this username already exists. Maybe it’s your evil twin. Spooky</span>:<></>}
+                        {username ? <h5 className={styles.h5}>.</h5>:
+                        user?<span></span>:<></>}
                     </div>
                     <PasswordTab password={password} setPassword={setPassword} setButton={setButton} detail={detail} setDetail={setDetail}/>
                     <Button className={styles.signupBtn} onClick={submitData} type="submit"><Link to="/dashboard" >Sign Up</Link></Button>
                     <CheckBox type="checkbox" />
-                    <p>I don't want to receive updates from Mailchimp related to marketing best practices, product and feature updates, and promotions.</p>
+                    <p></p>
                 </div>
                 //<p>By clicking the "Sign Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <span>Terms of Use</span> and <span>Privacy Policy</span>.</p>
                 //<p>©2001–2021 All Rights Reserved. Mailchimp® is a registered trademark of The Rocket Science Group. Cookie Preferences, Privacy, and Terms.</p>
